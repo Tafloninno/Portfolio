@@ -17,6 +17,7 @@ nav {
   line-height: 20px;
   color: #6070ff;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .homepage {
@@ -53,7 +54,7 @@ p {
   text-align: start;
 }
 
-a {
+.connect {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -62,9 +63,13 @@ a {
   padding-top: 12px;
 }
 
-.images_container {
+ul {
   display: flex;
   flex-direction: row;
   gap: 15px;
   padding-top: 15px;
+}
+
+li {
+  list-style: none;
 }
