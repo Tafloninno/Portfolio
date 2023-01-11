@@ -11,7 +11,7 @@
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
+
 
 # 📗 Table of Contents
 
@@ -39,34 +39,36 @@
 
 ## 📖 Portfolio <a name="about-project"></a>
 
-> portfolio landing page mobile version
+> Building a responsive portfolio mobile project using HTML/CSS  from a Figma design template
 
 
 
-## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+## 🛠 Built With Figma, VSCode, and Github <a name="Built With Figma, VSCode, and Github"></a>
+
+### HTML/CSS, Github and Figma <a name="tech-stack"></a>
+
+>
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">HTML</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>Styling</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://expressjs.com/">CSS</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Database</summary>
+<summary>UI Design</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.postgresql.org/">Figma</a></li>
   </ul>
 </details>
 
@@ -74,11 +76,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+
+- **Mobile version**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,13 +97,15 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+> A beginner developer can use this template as a starting point for creating other HTML projects that are properly set up with CSS and have ESLint configured.
 
-To get a local copy up and running, follow these steps.
+
 
 ### Prerequisites
 
 In order to run this project you need:
+- VScode
+- Figma
 
 <!--
 Example command:
@@ -115,15 +118,16 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
+<br>
+<br>```gh repo clone Tafloninno/Portfolio```
 
-<!--
-Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:Tafloninno/Portfolio.git
 ```
---->
+
+
 
 ### Install
 
@@ -178,21 +182,16 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Mugisha.I <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
-👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Mugisha.I**
 
-👤 **Author2**
+- GitHub: [@githubhandle](https://github.com/Tafloninno)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mugisha-innocent-19b700238/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
