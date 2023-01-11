@@ -199,11 +199,10 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> I'll add the following section to the webpage.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **work section**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -221,9 +220,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
-If you like this project...
+
+If you like this project... Kindly leave a star ⭐
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -241,15 +240,15 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
 
-  - [Answer_1]
+- **Did you intergrate linters to your project**
 
-- **[Question_2]**
+  - Yes
 
-  - [Answer_2]
+- **[Did you run all the tests**
+
+  - Yes
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
