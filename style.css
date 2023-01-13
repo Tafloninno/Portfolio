@@ -74,14 +74,15 @@ p {
 .main_container li {
   list-style: none;
 }
-.about_myself_header{
+
+.about_myself_header {
   width: 30%;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  
 }
+
 .work_section {
   padding-top: 60px;
   background-color: #e5e5e5;
@@ -219,7 +220,6 @@ p {
   font-weight: 500;
 }
 
-
 .icon_one:nth-child(1) i {
   transform: rotate(90deg);
 }
@@ -242,7 +242,3 @@ hr {
   border: 0.5px solid #dfe1e6;
   margin: 0 12px;
 }
-
-
-
-
