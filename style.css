@@ -74,7 +74,14 @@ p {
 .main_container li {
   list-style: none;
 }
-
+.about_myself_header{
+  width: 30%;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  
+}
 .work_section {
   padding-top: 60px;
   background-color: #e5e5e5;
@@ -87,15 +94,16 @@ p {
   gap: 88px;
 }
 
-h2 {
+.card_container h2 {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
   font-weight: 700;
+  padding: 12px 0;
 }
 
-.card_container:nth-child(even) h2 {
-  width: 80%;
+.card_one:nth-child(even) h2 {
+  width: 90%;
 }
 
 .card_one {
@@ -118,6 +126,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  gap: 20px;
 }
 
 .canopy {
@@ -132,6 +141,7 @@ h2 {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
+  padding: 12px 0;
 }
 
 .first_buttons {
@@ -191,15 +201,16 @@ h2 {
 }
 
 .languages_wrapper {
-  margin-bottom: 20px;
+  padding: 12px 24px;
 }
 
 .icon_one {
+  width: 90%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 12pc;
-  margin: 38px;
+  justify-content: space-between;
+  gap: 11pc;
+  margin: 30px 10px;
 }
 
 .icon_one h4 {
@@ -208,12 +219,13 @@ h2 {
   font-weight: 500;
 }
 
-.icon_one i {
+
+.icon_one:nth-child(1) i {
   transform: rotate(90deg);
 }
 
 .languages {
-  padding: 22px;
+  padding: 0 4px;
 }
 
 .languages_details {
@@ -227,38 +239,10 @@ h2 {
 }
 
 hr {
-  border: 1px solid #dfe1e6;
+  border: 0.5px solid #dfe1e6;
   margin: 0 12px;
 }
 
-.icon_two {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  gap: 11pc;
-  margin: 28px;
-  padding: 14px;
-}
 
-.icon_two h4 {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 500;
-}
 
-.icon_three {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  gap: 16pc;
-  margin: 20px;
-  padding: 14px;
-  margin-bottom: 21px;
-}
-
-.icon_three h4 {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 500;
-}
 
