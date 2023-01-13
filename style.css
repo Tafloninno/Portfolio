@@ -45,7 +45,7 @@ h1 {
   font-weight: 700;
 }
 
-p {
+.main_container p {
   width: 95%;
   font-size: 16px;
   line-height: 24px;
@@ -84,15 +84,18 @@ p {
 }
 
 .work_section {
-  padding-top: 60px;
+  padding-top: 114px;
+  padding-bottom: 114px;
   background-color: #e5e5e5;
   display: flex;
   justify-content: center;
 }
 
 .card_container {
+  width: 100%;
   display: grid;
   gap: 88px;
+  padding: 0 24px;
 }
 
 .card_container h2 {
@@ -108,11 +111,23 @@ p {
 }
 
 .card_one {
-  top: 114px;
-  width: 327px;
-  border-radius: 16px;
+  width: 100%;
   background-color: #fff;
-  padding: 16px;
+  border-radius: 16px;
+  display: grid;
+  padding: 16px 0 16px 0;
+  align-items: start;
+  justify-items: center;
+  box-sizing: border-box;
+  border: 1px solid #dfe1e6;
+}
+
+.details_wrapper {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: auto;
 }
 
 .card_image {
@@ -139,10 +154,10 @@ p {
 }
 
 .card_details p {
+  width: 95%;
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  padding: 12px 0;
 }
 
 .first_buttons {
@@ -166,6 +181,11 @@ p {
   flex-direction: row;
   padding-top: 24px;
   padding-bottom: 16px;
+}
+
+.first_buttons,
+.languages_container ul {
+  list-style: none;
 }
 
 .last-button button {
@@ -199,6 +219,24 @@ p {
   padding: 12px 12px;
   background-color: #fff;
   border: 1px solid #396df2;
+}
+
+button:hover {
+  background-color: #6070ff;
+  transition: 0.5s;
+  color: white;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+button:active {
+  background-color: #2230d2;
+  color: white;
+}
+
+button:disabled {
+  background-color: transparent;
+  color: #5e6c84;
+  border: 1px solid #5e6c84;
 }
 
 .languages_wrapper {
