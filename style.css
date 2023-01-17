@@ -106,6 +106,14 @@ h1 {
   padding: 12px 0;
 }
 
+.contact_me h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  padding-top: 50px;
+}
+
 .card_one:nth-child(even) h2 {
   width: 90%;
 }
@@ -200,10 +208,6 @@ h1 {
   border: 1px solid #396df2;
 }
 
-.about_page {
-  height: 100vh;
-}
-
 .about-button {
   padding-top: 34px;
   padding-bottom: 24px;
@@ -216,6 +220,22 @@ h1 {
   font-weight: 500;
   border-radius: 8px;
   text-decoration: none;
+  padding: 12px 12px;
+  background-color: #fff;
+  border: 1px solid #396df2;
+}
+
+.contact_button {
+  padding-top: 22px;
+  padding-bottom: 24px;
+}
+
+.contact_button button {
+  color: #396df2;
+  line-height: 24px;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 8px;
   padding: 12px 12px;
   background-color: #fff;
   border: 1px solid #396df2;
@@ -240,7 +260,7 @@ button:disabled {
 }
 
 .languages_wrapper {
-  padding: 12px 24px;
+  padding: 12px 24px 100px 24px;
 }
 
 .icon_one {
@@ -279,4 +299,56 @@ button:disabled {
 hr {
   border: 0.5px solid #dfe1e6;
   margin: 0 12px;
+}
+
+.contact {
+  height: 100vh;
+  background-color: #6070ff;
+  background-image: url(images/form_picture.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 60px 24px 8px 24px;
+  border-top-left-radius: 100px;
+}
+
+.contact_me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_me p {
+  width: 327px;
+  color: #ebebff;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  padding-bottom: 44px;
+  padding-top: 12px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form_details {
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+.form_details_message {
+  border-radius: 8px;
+  padding: 15px 20px;
+}
+
+form ::placeholder {
+  color: #b3bac5;
+  font-size: 15px;
+  line-height: 24px;
 }
