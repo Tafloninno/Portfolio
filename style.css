@@ -12,6 +12,23 @@ nav {
   padding: 16pt 24px;
 }
 
+h1 {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 .logo {
   font-size: 18px;
   line-height: 20px;
