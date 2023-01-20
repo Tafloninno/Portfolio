@@ -6,10 +6,15 @@
 }
 
 nav {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 16pt 24px;
+}
+
+main {
+  background-color: #e5e5e5;
 }
 
 .logo {
@@ -20,21 +25,27 @@ nav {
   text-decoration: none;
 }
 
+.menu ul {
+  display: none;
+}
+
 .homepage {
   background-image: url(images/header-shapes\ mobile@2x.svg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
+  width: 100%;
+  padding: 114px 24px;
+  background-color: white;
+  border-bottom-left-radius: 100px;
 }
 
-.main_container {
-  min-width: 327px;
-  padding-top: 114px;
+.main_container_one {
+  width: 87.2%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 24px;
-  padding-right: 24px;
 }
 
 h1 {
@@ -45,7 +56,7 @@ h1 {
   font-weight: 700;
 }
 
-.main_container p {
+.main_container_one p {
   width: 95%;
   font-size: 16px;
   line-height: 24px;
@@ -55,7 +66,7 @@ h1 {
   text-align: start;
 }
 
-.connect {
+.connect_one {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -64,15 +75,50 @@ h1 {
   padding-top: 12px;
 }
 
-.main_container ul {
+.main_container_one ul {
   display: flex;
   flex-direction: row;
   gap: 15px;
   padding-top: 15px;
 }
 
-.main_container li {
+.main_container_one li {
   list-style: none;
+}
+
+.main_container_two p {
+  width: 95%;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #344563;
+  padding-top: 12px;
+  text-align: start;
+}
+
+.connect_two {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #7f8cff;
+  text-decoration: none;
+  padding-top: 12px;
+}
+
+.main_container_two ul {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding-top: 15px;
+}
+
+.main_container_two li {
+  list-style: none;
+}
+
+.about_page {
+  background-color: white;
+  padding: 114px 24px;
 }
 
 .about_myself_header {
@@ -84,18 +130,19 @@ h1 {
 }
 
 .work_section {
-  padding-top: 114px;
-  padding-bottom: 114px;
+  width: 100%;
+  padding: 114px 24px;
   background-color: #e5e5e5;
   display: flex;
   justify-content: center;
 }
 
 .card_container {
-  width: 100%;
+  width: 90.2%;
+  margin: 0 auto;
   display: grid;
+  grid-template-columns: 1fr;
   gap: 88px;
-  padding: 0 24px;
 }
 
 .card_container h2 {
@@ -114,32 +161,33 @@ h1 {
   padding-top: 50px;
 }
 
+/*
 .card_one:nth-child(even) h2 {
   width: 90%;
 }
-
+*/
 .card_one {
   width: 100%;
   background-color: #fff;
   border-radius: 16px;
   display: grid;
-  padding: 16px 0 16px 0;
-  align-items: start;
-  justify-items: center;
-  box-sizing: border-box;
+  grid-template-columns: 1fr;
+  gap: 20px;
   border: 1px solid #dfe1e6;
+  padding: 20px;
 }
 
 .details_wrapper {
-  width: 90%;
   display: flex;
   flex-direction: column;
-  align-items: start;
-  margin: auto;
+  gap: 14px;
 }
 
-.card_image {
-  grid-column-start: 1;
+.card_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .card_details ul {
@@ -191,6 +239,10 @@ h1 {
   padding-bottom: 16px;
 }
 
+.languages_container {
+  width: 100%;
+}
+
 .first_buttons,
 .languages_container ul {
   list-style: none;
@@ -227,7 +279,7 @@ h1 {
 
 .contact_button {
   padding-top: 22px;
-  padding-bottom: 24px;
+  padding-bottom: 94px;
 }
 
 .contact_button button {
@@ -268,7 +320,6 @@ button:disabled {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 11pc;
   margin: 30px 10px;
 }
 
@@ -302,7 +353,6 @@ hr {
 }
 
 .contact {
-  height: 100vh;
   background-color: #6070ff;
   background-image: url(images/form_picture.png);
   background-size: contain;
@@ -310,6 +360,10 @@ hr {
   background-position: right;
   padding: 60px 24px 8px 24px;
   border-top-left-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .contact_me {
@@ -330,6 +384,8 @@ hr {
 }
 
 form {
+  min-width: 270px;
+  max-width: 447px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -351,4 +407,81 @@ form ::placeholder {
   color: #b3bac5;
   font-size: 15px;
   line-height: 24px;
+}
+
+@media (min-width: 960px) {
+  .logo {
+    margin-left: 142px;
+  }
+
+  .menu {
+    margin-right: 142px;
+  }
+
+  .menu img {
+    display: none;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+  }
+
+  .menu a {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+    color: #344563;
+  }
+
+  .card_one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-2 .card_image,
+  .card-4 .card_image {
+    grid-column: 2/3;
+  }
+
+  .card-2 .details_wrapper,
+  .card-4 .details_wrapper {
+    grid-row: 1/2;
+  }
+
+  .about_page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .languages {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .languages_details {
+    position: relative;
+    width: 122px;
+    height: 120px;
+  }
+
+  .languages_details img {
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    left: calc(50% - 48px / 2 - 25px);
+    top: 12px;
+  }
+
+  .languages_details p {
+    position: absolute;
+    height: 24px;
+    left: 12px;
+    top: 76px;
+  }
 }
