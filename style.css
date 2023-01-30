@@ -472,16 +472,19 @@ form ::placeholder {
     margin-left: 142px;
   }
 
+  .humburger_menu {
+    display: none;
+  }
+
   .mobile_menu a {
     width: 100%;
     display: flex;
     padding-top: 7px;
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.683);
     font-size: 15px;
     line-height: 20px;
     font-weight: 500;
-    colour #344563;
+    color: #344563;
   }
 
   .mobile_menu a:hover {
@@ -498,8 +501,6 @@ form ::placeholder {
     list-style: none;
     gap: 20px;
   }
-
-
 
   .card_one {
     display: grid;
