@@ -156,11 +156,6 @@ h1 {
   padding-top: 50px;
 }
 
-/*
-.card_one:nth-child(even) h2 {
-  width: 90%;
-}
-*/
 .card_one {
   width: 100%;
   background-color: #fff;
