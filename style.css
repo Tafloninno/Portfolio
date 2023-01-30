@@ -25,9 +25,9 @@ main {
   text-decoration: none;
 }
 
-.menu ul {
+/* .menu ul {
   display: none;
-}
+} */
 
 .homepage {
   background-image: url(images/header-shapes\ mobile@2x.svg);
@@ -279,7 +279,7 @@ h1 {
 
 .contact_button {
   padding-top: 22px;
-  padding-bottom: 94px;
+  padding-bottom: 120px;
 }
 
 .contact_button button {
@@ -409,34 +409,100 @@ form ::placeholder {
   line-height: 24px;
 }
 
-@media (min-width: 960px) {
+/* hamburger-menu */
+.humburger_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.mobile_menu {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  list-style: none;
+  background-color: rgba(96, 112, 255, 0.874);
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.mobile_menu a {
+  display: flex;
+  padding-top: 50px;
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+}
+
+.bar {
+  width: 24px;
+  height: 2px;
+  background-color: #6070ff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.humburger_menu.active .bar:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+  background-color: white;
+  z-index: 100;
+}
+
+.humburger_menu.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.humburger_menu.active .bar:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+  z-index: 100;
+  background-color: white;
+}
+
+.active {
+  left: 0;
+}
+
+@media (min-width: 768px) {
   .logo {
+    width: 100%;
     margin-left: 142px;
   }
 
-  .menu {
-    margin-right: 142px;
-  }
-
-  .menu img {
+  .humburger_menu {
     display: none;
   }
 
-  .menu ul {
+  .mobile_menu a {
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 30px;
-    list-style: none;
-  }
-
-  .menu a {
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
+    padding-top: 7px;
     text-decoration: none;
     color: #344563;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
   }
+
+  .mobile_menu a:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+
+  .mobile_menu {
+    width: 100%;
+    height: 0;
+    display: flex;
+    flex-direction: row;
+    position: static;
+    list-style: none;
+    gap: 20px;
+  }
+
+
 
   .card_one {
     display: grid;
