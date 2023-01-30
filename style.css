@@ -472,16 +472,16 @@ form ::placeholder {
     margin-left: 142px;
   }
 
-  .humburger_menu {
+  /* .humburger_menu {
     display: none;
-  }
+  } */
 
   .mobile_menu a {
     width: 100%;
     display: flex;
     padding-top: 7px;
     text-decoration: none;
-    color: #344563;
+    color: rgba(0, 0, 0, 0.683);
     font-size: 15px;
     line-height: 20px;
     font-weight: 500;
