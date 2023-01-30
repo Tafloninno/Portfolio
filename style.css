@@ -472,10 +472,6 @@ form ::placeholder {
     margin-left: 142px;
   }
 
-  /* .humburger_menu {
-    display: none;
-  } */
-
   .mobile_menu a {
     width: 100%;
     display: flex;
@@ -485,6 +481,7 @@ form ::placeholder {
     font-size: 15px;
     line-height: 20px;
     font-weight: 500;
+    colour #344563;
   }
 
   .mobile_menu a:hover {
