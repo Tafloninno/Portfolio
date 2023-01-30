@@ -25,10 +25,6 @@ main {
   text-decoration: none;
 }
 
-/* .menu ul {
-  display: none;
-} */
-
 .homepage {
   background-image: url(images/header-shapes\ mobile@2x.svg);
   background-repeat: no-repeat;
@@ -408,7 +404,6 @@ form ::placeholder {
   line-height: 24px;
 }
 
-/* hamburger-menu */
 .humburger_menu {
   display: flex;
   flex-direction: column;
@@ -427,6 +422,7 @@ form ::placeholder {
   background-color: rgba(96, 112, 255, 0.874);
   padding-left: 28px;
   padding-right: 28px;
+  backdrop-filter: saturate(180%) blur(5px);
 }
 
 .mobile_menu a {
