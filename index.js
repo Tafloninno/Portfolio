@@ -19,8 +19,9 @@ const objects = [
     detailsOne: 'CANOPY',
     detailsTwo: 'End Dev',
     year: '2015',
-    image: 'images/Snapshoot Portfolio.png',
+    image: 'images/Snapshoot Portfolio.svg',
     alt: 'image',
+    paragraphShort: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     tools: ['html', 'css', 'Javascript'],
     toolsTwo: ['github', 'ruby', 'bootstraps'],
@@ -34,8 +35,9 @@ const objects = [
     detailsOne: 'CANOPY',
     detailsTwo: 'End Dev',
     year: '2015',
-    image: 'images/Snapshoot Portfolio_2.png',
+    image: 'images/Snapshoot Portfolio_2.svg',
     alt: 'image',
+    paragraphShort: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     tools: ['html', 'css', 'Javascript'],
     toolsTwo: ['github', 'ruby', 'bootstraps'],
@@ -49,8 +51,9 @@ const objects = [
     detailsOne: 'CANOPY',
     detailsTwo: 'End Dev',
     year: '2015',
-    image: 'images/Snapshoot Portfolio_3.png',
+    image: 'images/Snapshoot Portfolio_3.svg',
     alt: 'image',
+    paragraphShort: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     tools: ['html', 'css', 'Javascript'],
     toolsTwo: ['github', 'ruby', 'bootstraps'],
@@ -64,8 +67,9 @@ const objects = [
     detailsOne: 'CANOPY',
     detailsTwo: 'End Dev',
     year: '2015',
-    image: 'images/Snapshoot Portfolio_4.png',
+    image: 'images/Snapshoot Portfolio_4.svg',
     alt: 'image',
+    paragraphShort: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     tools: ['html', 'css', 'Javascript'],
     toolsTwo: ['github', 'ruby', 'bootstraps'],
@@ -107,7 +111,7 @@ function popUpModal(object) {
               
           </ul>
         </div>
-        <div class="card_image>
+        <div class="card_image">
             <img src="${object.image}" alt="${object.alt}"> 
         </div>
         <div class="paragraph_buttons">
@@ -150,7 +154,7 @@ function loadProjectsCards(objects = []) {
         <div class="card_container">
           <div class="card_one">
             <div class="card_image">
-              <img scr="${object.image}" alt="${object.alt}">
+              <img src="${object.image}" alt="${object.alt}">
             </div>
 
             <div class="details_wrapper">
@@ -164,7 +168,7 @@ function loadProjectsCards(objects = []) {
                   <li>${object.year}</li>
                 </ul>
                 <p>
-                  ${object.paragraph}
+                  ${object.paragraphShort}
                 </p>
               </div>
               <ul class="first_buttons">
