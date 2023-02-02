@@ -31,6 +31,54 @@
             </ul>
         </nav>
     </header>
+    <div id="pop_up_window" class="popup_card_container">
+        <!-- <div class="popup_card_one">
+            <div class="top_container">
+                <div class="details_wrapper">
+                    <h2>Tonic</h2>
+                </div>
+                
+                <button class="popup_cross_button">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+            </div>
+            <div class="card_details">
+                <ul>
+                    <li class="canopy">CANOPY</li>
+                     <li>Back End Dev</li>
+                     <li>2015</li>
+                </ul>
+            </div>
+
+          
+           <div class="card_image">
+            <img src="images/Snapshoot Portfolio popup.png" alt="">
+           </div>
+           <div class="paragrap_buttons">
+            <p class="paragraph">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
+               </p>
+               <div class="popup_buttons">
+                <div  class="first_buttons">
+                    <a href="#">html</a>
+                    <a href="#">css</a>
+                    <a href="#">Javascript</a>
+                </div>
+                <div class="extra_buttons">
+                    <a href="#">github</a>
+                    <a href="#">ruby</a>
+                    <a href="#">bootstraps</a>
+                </div>
+                  <hr>
+                  <div class="project_button">
+                    <button>See live <img src="images/Icon - Export.png" alt=""> </button>
+                    <button>See source <img src="images/github in button.png" alt=""></button>
+                  </div>
+               </div>
+           </div>
+
+        </div> -->
+    </div>
     <main>
         <section class="homepage">
             <div class="main_container_one">
@@ -73,8 +121,8 @@
             </div>
             
         </section>
-        <section class="work_section">
-            <div class="card_container">
+        <section id="work" class="work_section">
+            <!--  <div class="card_container">
                 <div class="card_one">
                     <div class="card_image">
                        <img src="images/Snapshoot Portfolio.png" alt="">
@@ -104,6 +152,7 @@
 
                     </div>
                 </div>
+                
 
                 <div class="card_one card-2">
                     <div class="card_image">
@@ -197,8 +246,8 @@
 
                
                
-            </div>
-          
+            </div> -->
+           
         </section>
         <section  class="about_page" id="about">
             <div class="main_container_two">
@@ -286,14 +335,18 @@
                 <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
             </div>
             
-            <form  action="https://formspree.io/f/xdovkznb" method="POST">
-                <input class="form_details" type="text" name="Name" placeholder="Full Name" maxlength="30" required>
-                <input class="form_details" type="email" name="Email" placeholder="Email" required>
-                <textarea class="form_details_message" name="Message" id="" cols="30" rows="10" maxlength="500" placeholder="Write Your Message Here" required></textarea>
+            <form id="form"  action="https://formspree.io/f/xdovkznb" method="POST">
+                <input class="form_details input_field" type="text" name="Name" id="name" placeholder="Full Name" maxlength="30" required>
+                <input class="form_details input_field" type="email" name="Email" id="email" placeholder="Email" required>
+                <textarea class="form_details_message input_field" name="Message" id="textarea" cols="30" rows="10" maxlength="500" placeholder="Write Your Message Here" required></textarea>
 
                 <div class="contact_button">
-                    <button type="submit">Get In Touch</button>
-                 </div>
+                    <small id="alertmessage"></small>
+                    <button id="contact_button" type="submit">Get In Touch</button>
+                </div>
+                <div class="submit_response error_hidden">
+                    <!-- Thank you for your message.  -->
+                </div>
             </form>
             
            
