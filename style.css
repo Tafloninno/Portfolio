@@ -215,10 +215,10 @@ h1 {
 .first_buttons {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   gap: 10px;
   padding-top: 10px;
   padding-bottom: 8px;
-  justify-content: flex-start;
 }
 
 .first_buttons li {
@@ -346,7 +346,7 @@ button:disabled {
 
 hr {
   border: 0.5px solid #dfe1e6;
-  margin: 0 12px;
+  margin: 0 20px;
 }
 
 .contact {
@@ -520,6 +520,7 @@ form ::placeholder {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
+  padding-bottom: 8px;
 }
 
 .project_button {
@@ -527,9 +528,7 @@ form ::placeholder {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-top: 28px;
   padding-bottom: 16px;
-  gap: 3px;
 }
 
 .project_button button {
@@ -545,6 +544,12 @@ form ::placeholder {
   background-color: #fff;
   border: 1px solid #6070ff;
   gap: 8px;
+}
+
+.popup_buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
 }
 
 .popup_buttons .project_button {
@@ -697,13 +702,32 @@ form ::placeholder {
     display: flex;
     flex-direction: row;
     padding-bottom: 50px;
+    gap: 19px;
   }
 
   .paragraph {
-    width: 100%;
+    width: 60%;
     font-size: 16px;
     line-height: 30px;
     color: #344563;
+  }
+
+  .popup_buttons .first_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .popup_buttons {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .project_button {
+    justify-content: center;
+    padding-top: 18px;
   }
 
   .extra_buttons {
