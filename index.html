@@ -169,7 +169,7 @@
             
             <form id="form"  action="https://formspree.io/f/xdovkznb" method="POST">
                 <input class="form_details input_field" type="text" name="Name" id="name" placeholder="Full Name" maxlength="30" required>
-                <input class="form_details input_field" type="email" name="Email" id="email" placeholder="Email" required>
+                <input class="form_details input_field" type="email" name="Email" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
                 <textarea class="form_details_message input_field" name="Message" id="textarea" cols="30" rows="10" maxlength="500" placeholder="Write Your Message Here" required></textarea>
 
                 <div class="contact_button">
@@ -177,7 +177,7 @@
                     <button id="contact_button" type="submit">Get In Touch</button>
                 </div>
                 <div class="submit_response error_hidden">
-                    
+                    Thank you for your Message
                 </div>
             </form>
             
