@@ -275,6 +275,8 @@ h1 {
 }
 
 .contact_button {
+  display: flex;
+  flex-direction: column;
   padding-top: 22px;
   padding-bottom: 120px;
 }
@@ -558,6 +560,31 @@ form ::placeholder {
 
 .extra_buttons {
   display: none;
+}
+
+.form small {
+  font-size: 12px;
+}
+
+/* .error_hidden {
+  display: none;
+} */
+
+.submit_response {
+  background-color: white;
+  color: #6070ff;
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+#alertmessage {
+  background-color: white;
+  color: #e74c3c;
+  padding: 4px;
+  border-radius: 8px;
+  z-index: 2;
 }
 
 @media (min-width: 768px) {
