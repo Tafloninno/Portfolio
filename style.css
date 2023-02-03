@@ -566,6 +566,10 @@ form ::placeholder {
   font-size: 12px;
 }
 
+.error_hidden {
+  display: none;
+}
+
 .submit_response {
   background-color: white;
   color: #6070ff;
