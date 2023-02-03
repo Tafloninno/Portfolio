@@ -31,6 +31,10 @@
             </ul>
         </nav>
     </header>
+    <div id="pop_up_window" class="popup_card_container">
+       
+        
+    </div>
     <main>
         <section class="homepage">
             <div class="main_container_one">
@@ -73,132 +77,9 @@
             </div>
             
         </section>
-        <section class="work_section">
-            <div class="card_container">
-                <div class="card_one">
-                    <div class="card_image">
-                       <img src="images/Snapshoot Portfolio.png" alt="">
-                    </div>
-                    
-                    <div class="details_wrapper">
-                        <h2>Tonic</h2>
-                     <div class="card_details">
-                       <ul>
-                           <li class="canopy">CANOPY</li>
-                            <li>Back End Dev</li>
-                            <li>2015</li>
-                       </ul>
-                      
-                       <p>
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                       </p>
-                     </div>
-                     <div  class="first_buttons">
-                       <a href="#">html</a>
-                       <a href="#">css</a>
-                       <a href="#">Javascript</a>
-                     </div>
-                     <div class="last-button">
-                       <button>See Project</button>
-                     </div>
-
-                    </div>
-                </div>
-
-                <div class="card_one card-2">
-                    <div class="card_image">
-                       <img src="images/Snapshoot Portfolio_2.png" alt="">
-                    </div>
-                    <div class="details_wrapper">
-                        <h2>Multi-Post
-                            Stories</h2>
-                        <div class="card_details">
-                           <ul>
-                               <li class="canopy">CANOPY</li>
-                                <li>Back End Dev</li>
-                                <li>2015</li>
-                           </ul>
-                          
-                           <p>
-                               A daily selection of privately personalized reads; no accounts or sign-ups required.
-                           </p>
-                        </div>
-                        <ul  class="first_buttons">
-                           <li><a href="#">html</a></li>
-                           <li><a href="#">css</a></li>
-                           <li><a href="#">Javascript</a></li>
-                        </ul>
-                        <div class="last-button">
-                           <button>See Project</button>
-                        </div>
-                      
-                    </div>
-                    
-                </div>
-
-                <div class="card_one">
-                    <div class="card_image">
-                       <img src="images/Snapshoot Portfolio_3.png" alt="">
-                    </div>
-                    <div class="details_wrapper">
-                        <h2>Tonic</h2>
-                        <div class="card_details">
-                           <ul>
-                               <li class="canopy">CANOPY</li>
-                                <li>Back End Dev</li>
-                                <li>2015</li>
-                           </ul>
-                          
-                           <p>
-                               A daily selection of privately personalized reads; no accounts or sign-ups required.
-                           </p>
-                        </div>
-                        <ul  class="first_buttons">
-                            <li><a href="#">html</a></li>
-                            <li><a href="#">css</a></li>
-                            <li><a href="#">Javascript</a></li>
-                         </ul>
-                        <div class="last-button">
-                           <button>See Project</button>
-                        </div>
-                    </div>
-                   
-                </div>
-
-                <div class="card_one card-4">
-                    <div class="card_image">
-                       <img src="images/Snapshoot Portfolio_4.png" alt="">
-                    </div>
-                    <div class="details_wrapper">
-                        <h2>Multi-Post
-                            Stories</h2>
-                        <div class="card_details">
-                           <ul>
-                               <li class="canopy">CANOPY</li>
-                                <li>Back End Dev</li>
-                                <li>2015</li>
-                           </ul>
-                          
-                           <p>
-                               A daily selection of privately personalized reads; no accounts or sign-ups required.
-                           </p>
-                        </div>
-                        <ul  class="first_buttons">
-                            <li><a href="#">html</a></li>
-                            <li><a href="#">css</a></li>
-                            <li><a href="#">Javascript</a></li>
-                         </ul>
-                        <div class="last-button">
-                           <button>See Project</button>
-                        </div>
-                    </div>
-                   
-                </div>
-
-               
-               
-            </div>
-          
+        <section id="work" class="work_section">
+            
+           
         </section>
         <section  class="about_page" id="about">
             <div class="main_container_two">
@@ -286,14 +167,18 @@
                 <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
             </div>
             
-            <form  action="https://formspree.io/f/xdovkznb" method="POST">
-                <input class="form_details" type="text" name="Name" placeholder="Full Name" maxlength="30" required>
-                <input class="form_details" type="email" name="Email" placeholder="Email" required>
-                <textarea class="form_details_message" name="Message" id="" cols="30" rows="10" maxlength="500" placeholder="Write Your Message Here" required></textarea>
+            <form id="form"  action="https://formspree.io/f/xdovkznb" method="POST">
+                <input class="form_details input_field" type="text" name="Name" id="name" placeholder="Full Name" maxlength="30" required>
+                <input class="form_details input_field" type="email" name="Email" id="email" placeholder="Email" required>
+                <textarea class="form_details_message input_field" name="Message" id="textarea" cols="30" rows="10" maxlength="500" placeholder="Write Your Message Here" required></textarea>
 
                 <div class="contact_button">
-                    <button type="submit">Get In Touch</button>
-                 </div>
+                    <small id="alertmessage"></small>
+                    <button id="contact_button" type="submit">Get In Touch</button>
+                </div>
+                <div class="submit_response error_hidden">
+                    
+                </div>
             </form>
             
            
