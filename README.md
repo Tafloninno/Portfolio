@@ -74,11 +74,12 @@
 
 
 
-### Key Features <a name="key-features"></a>
+## Key Features <a name="key-features"></a>
 
 
 
 - **Mobile version**
+- **Desktop  version**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -182,7 +183,7 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👥 Mugisha.I <a name="authors"></a>
+## 👥 Author<a name="authors"></a>
 
 
 
@@ -202,6 +203,10 @@ Example:
 > I'll add the following section to the webpage.
 
 - [ ] **work section**
+- [ ] **hamburger menu**
+- [ ] **popup modal**
+- [ ] **form validation**
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -230,7 +235,7 @@ If you like this project... Kindly leave a star ⭐
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+
 
 I would like to thank...
 
