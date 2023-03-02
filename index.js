@@ -19,14 +19,14 @@ const objects = [
     detailsOne: 'CANOPY',
     detailsTwo: 'End Dev',
     year: '2015',
-    image: 'images/Snapshoot Portfolio.svg',
+    image: 'images/captone_project.jpeg',
     alt: 'image',
     paragraphShort: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     tools: ['html', 'css', 'Javascript'],
     toolsTwo: ['github', 'ruby', 'bootstraps'],
     submitButton: 'work_section_buttons',
-    liveLink: '#',
+    liveLink: 'http:/about.html',
     sourceLink: '#',
   },
   {
@@ -127,7 +127,7 @@ function popUpModal(object) {
             </div>
             <hr>
             <div class="project_button">
-               <button>
+               <button onclick="window.open('http://127.0.0.1:5500/index.html')">
                    See live <img src="images/Icon - Export.png" alt="">
                </button>
                <button>
