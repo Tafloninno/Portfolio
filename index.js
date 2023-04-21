@@ -15,14 +15,14 @@ const modalContainer = document.querySelector('#pop_up_window');
 const objects = [
   {
     id: 'work_one',
-    projectName: 'Tonic',
+    projectName: 'Monsters of Rock concert',
     detailsOne: 'CANOPY',
     detailsTwo: 'End Dev',
     year: '2015',
     image: 'images/captone_project.jpeg',
     alt: 'image',
-    paragraphShort: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    paragraphShort: 'This is a website about music rock concert 2023.',
+    paragraph: "This is a website about music rock concert 2023. this is a concert that is organised every year and this is part of microverse capstone projects",
     tools: ['html', 'css', 'Javascript'],
     toolsTwo: ['github', 'ruby', 'bootstraps'],
     submitButton: 'work_section_buttons',
